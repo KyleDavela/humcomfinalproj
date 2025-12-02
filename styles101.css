@@ -1,8 +1,9 @@
+:root
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
     background-color: #1c1e27;
-    color: #0ea83c
+    color: #cc1e30
 }
 
 header {
@@ -28,10 +29,16 @@ nav a {
     border-radius: 4px;
     transition: background 0.2s;
 }
+a.nav-link{
+    color: #DB3444;
+}
+a.navbar-brand{
+    color: #DB3444;
+}
 
 nav a:hover {
-    background: #27c93f;
-    color: #151720;
+
+    color: #4969f8;
 }
 
 .container {
@@ -136,4 +143,24 @@ nav a:hover {
     position: absolute;
     bottom: 10px;
     font-size: 45px;
+}
+div.card-body{
+    background-color: #20222b;
+    margin: 0px auto;
+    height: 100%;
+    width: 100%;
+}
+div.col-md4{
+    background-color: #1c1e27;
+    object-fit: cover;
+}
+div.col-md8{
+    background-color: #1c1e27;
+    padding: 0px;
+
+}
+img.img-fluid.rounded-start {
+    width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
